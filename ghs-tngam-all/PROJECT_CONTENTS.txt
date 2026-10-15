@@ -1,0 +1,36 @@
+GHS Inc Asset Management project contents
+
+README.md
+backend/pom.xml
+backend/src/main/java/com/ghs/ams/AmsApplication.java
+backend/src/main/java/com/ghs/ams/asset/AssetStatus.java
+backend/src/main/java/com/ghs/ams/asset/Asset.java
+backend/src/main/java/com/ghs/ams/asset/AssetRepository.java
+backend/src/main/java/com/ghs/ams/event/AssetEvent.java
+backend/src/main/java/com/ghs/ams/event/AssetEventPublisher.java
+backend/src/main/java/com/ghs/ams/asset/AssetService.java
+backend/src/main/java/com/ghs/ams/asset/AssetController.java
+backend/src/main/java/com/ghs/ams/search/AssetSearchDocument.java
+backend/src/main/java/com/ghs/ams/search/AssetSearchRepository.java
+backend/src/main/java/com/ghs/ams/search/AssetSearchService.java
+backend/src/main/java/com/ghs/ams/search/AssetSearchController.java
+backend/src/main/java/com/ghs/ams/event/AssetSearchConsumer.java
+backend/src/main/resources/application.yml
+backend/src/test/java/com/ghs/ams/AmsApplicationTests.java
+backend/Dockerfile
+docker-compose.yml
+frontend/package.json
+frontend/angular.json
+frontend/tsconfig.json
+frontend/tsconfig.app.json
+frontend/proxy.conf.json
+frontend/src/index.html
+frontend/src/main.ts
+frontend/src/styles.css
+docs/AWS_DEPLOYMENT.md
+docs/PRODUCTION_CHECKLIST.md
+docs/API_EXAMPLES.md
+.gitignore
+.env.example
+
+Build the executable JAR with: cd backend && mvn clean package

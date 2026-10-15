@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: d-service
+  cloud:
+    config:
+      import: "optional:ghs-config:http://localhost:8088"
+      import-check:
+        enabled: false
+    
+    
